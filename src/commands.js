@@ -1,9 +1,12 @@
+var imdb = require('./imdb.js');
 var reddit = require('./reddit.js');
 var roll = require('./roll.js');
 var youtube = require('./youtube.js');
 
 var cmds = {
     commands: commandlist,
+    i: imdb,
+    imdb: imdb,
     r: reddit,
     reddit: reddit,
     roll: roll,
